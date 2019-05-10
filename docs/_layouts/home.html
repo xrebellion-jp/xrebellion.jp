@@ -1,0 +1,29 @@
+---
+title: "xrebellion"
+description: "xrebellion"
+---
+
+<!doctype html>
+<html lang="{{ page.lang }}">
+
+<head>
+  {% include meta.html %}
+</head>
+
+<body class="bg-light">
+  <header>
+    {% include header.html %}
+  </header>
+
+  <main role="main">
+    {% include main.html %}
+  </main>
+
+  <footer class="bg-dark">
+    {% include footer.html %} {% if site.google_analytics and
+      jekyll.environment == 'production' %} {% include analytics.html %}
+    {% endif %}
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+*.min.css
+*.min.js
+*.htm
+analytics.html
+home.html
+main.html
+meta.html
+_config.yml
+*.map

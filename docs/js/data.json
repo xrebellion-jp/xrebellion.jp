@@ -1,0 +1,639 @@
+{
+  "source": "https://emailclientmarketshare.com/",
+  "agents": {
+    "apple-mail": {
+      "description": "ios an osx mail apps (ipad,iphone,desktop apps)",
+      "name": "Apple Mail",
+      "market-share": "49%",
+      "versions": [
+        "iOS 10",
+        "OSX 10.10"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Mail_(Apple)"
+    },
+    "gmail": {
+      "description": "Gmail.com, Android Gmail App",
+      "name": "Gmail",
+      "market-share": "30%",
+      "versions": [
+        "Android 4.x",
+        "iOS 10",
+        "webmail"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Gmail"
+    },
+    "outlook": {
+      "description": "desktop mail app for windows",
+      "name": "Outlook",
+      "market-share": "6%",
+      "versions": [
+        "2007",
+        "2013",
+        "2016",
+        "webmail"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Microsoft_Outlook"
+    },
+    "yahoo": {
+      "description": "mail.yahoo.com",
+      "name": "YAHOO!",
+      "market-share": "2%",
+      "versions": [
+        "Android 4.x",
+        "iOS 10",
+        "webmail"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Yahoo!_Mail"
+    },
+    "windows-mail": {
+      "description": "another desktop mail app for windows",
+      "name": "Windows Mail",
+      "market-share": "2%",
+      "versions": [
+        "Windows 8",
+        "Windows 10",
+        "Windows Live Mail"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Mail_(Windows)"
+    }
+  },
+  "statuses": {
+    "rec": "W3C Recommendation",
+    "pr": "W3C Proposed Recommendation",
+    "cr": "W3C Candidate Recommendation",
+    "wd": "W3C Working Draft",
+    "ls": "WHATWG Living Standard",
+    "other": "Other",
+    "unoff": "Unofficial / Note"
+  },
+  "cats": {
+    "CSS": [
+      "CSS",
+      "CSS2",
+      "CSS3"
+    ],
+    "HTML": [
+      "HTML"
+    ]
+  },
+  "supportvalues": {
+    "y": {
+      "description": "(Y)es, supported by default",
+      "icon": "<i class=\"fa fa-fw fa-check\" title=\"Supported\" aria-hidden=\"true\"></i>"
+    },
+    "a": {
+      "description": "(A)lmost supported (aka Partial support)",
+      "icon": "<i class=\"fa fa-fw fa-info\" aria-hidden=\"true\"></i>"
+    },
+    "n": {
+      "description": "(N)o support, or disabled by default",
+      "icon": "<i class=\"fa fa-fw fa-ban\" title=\"Not Supported\" aria-hidden=\"true\"></i>"
+    },
+    "p": {
+      "description": "No support, but has (P)olyfill",
+      "icon": "<i class=\"fa fa-fw fa-exclamation-triangle\" aria-hidden=\"true\"></i>"
+    },
+    "u": {
+      "description": "Support (u)nknown",
+      "icon": "<i class=\"fa fa-fw fa-question\" title=\"Support unknown\" aria-hidden=\"true\"></i>"
+    },
+    "x": {
+      "description": "Requires prefi(x) to work",
+      "icon": "<i class=\"fa fa-fw fa-exclamation-triangle\" aria-hidden=\"true\"></i>"
+    },
+    "d": {
+      "description": "(D)isabled by default (need to enable flag or something)",
+      "icon": "<i class=\"fa fa-fw fa-exclamation-triangle\" aria-hidden=\"true\"></i>"
+    },
+    "#n": {
+      "description": "Where n is a number, starting with 1, corresponds to the notes_by_num note. For example: \"42\":\"y #1\" means version 42 is supported by default and see note 1.",
+      "icon": ""
+    }
+  },
+  "data": {
+    "CSS Background Properties": {
+      "background-color": {
+        "description": "",
+        "spec": "",
+        "links": [
+          {
+            "MDN": "https://developer.mozilla.org/en-US/docs/Web/CSS/background-color",
+            "W3C": "http://www.w3.org/TR/CSS2/colors.html#propdef-background-color"
+          }
+        ],
+        "categories": [
+          "CSS"
+        ],
+        "stats": {
+          "apple-mail": {
+            "iOS 10": "y",
+            "OSX 10.10": "y"
+          },
+          "gmail": {
+            "Android 4.x": "y",
+            "iOS 10": "y",
+            "webmail": "y"
+          },
+          "outlook": {
+            "2007": "y",
+            "2013": "y",
+            "2016": "y",
+            "webmail": "y"
+          },
+          "yahoo": {
+            "webmail": "y",
+            "Android 4.x": "y",
+            "iOS 10": "y"
+          },
+          "windows-mail": {
+            "Windows 8": "y",
+            "Windows 10": "y",
+            "windows-live-mail": "y"
+          }
+        }
+      },
+      "background-image": {
+        "description": "",
+        "spec": "",
+        "links": [
+          {
+            "MDN": "https://developer.mozilla.org/en-US/docs/Web/CSS/background-image",
+            "W3C": "http://www.w3.org/TR/CSS2/colors.html#propdef-background-image"
+          }
+        ],
+        "categories": [
+          "CSS"
+        ],
+        "stats": {
+          "apple-mail": {
+            "iOS 10": "y",
+            "OSX 10.10": "y"
+          },
+          "gmail": {
+            "Android 4.x": "u",
+            "iOS 10": "u",
+            "webmail": "y"
+          },
+          "outlook": {
+            "2007": "n",
+            "2013": "n",
+            "2016": "u",
+            "webmail": "u"
+          },
+          "yahoo": {
+            "webmail": "y",
+            "Android 4.x": "u",
+            "iOS 10": "u"
+          },
+          "windows-mail": {
+            "Windows 8": "u",
+            "Windows 10": "u",
+            "windows-live-mail": "u"
+          }
+        }
+      },
+      "background-position": {
+        "description": "",
+        "spec": "",
+        "links": [
+          {
+            "MDN": "https://developer.mozilla.org/en-US/docs/Web/CSS/background-position",
+            "W3C": "https://www.w3.org/TR/CSS2/colors.html#propdef-background-position"
+          }
+        ],
+        "categories": [
+          "CSS"
+        ],
+        "stats": {
+          "apple-mail": {
+            "iOS 10": "y",
+            "OSX 10.10": "y"
+          },
+          "gmail": {
+            "Android 4.x": "u",
+            "iOS 10": "u",
+            "webmail": "y"
+          },
+          "outlook": {
+            "2007": "n",
+            "2013": "n",
+            "2016": "u",
+            "webmail": "u"
+          },
+          "yahoo": {
+            "webmail": "y",
+            "Android 4.x": "u",
+            "iOS 10": "u"
+          },
+          "windows-mail": {
+            "Windows 8": "u",
+            "Windows 10": "u",
+            "windows-live-mail": "u"
+          }
+        }
+      },
+      "background-repeat": {
+        "description": "",
+        "spec": "",
+        "links": [
+          {
+            "MDN": "https://developer.mozilla.org/en-US/docs/Web/CSS/background-repeat",
+            "W3C": "https://www.w3.org/TR/CSS2/colors.html#propdef-background-repeat"
+          }
+        ],
+        "categories": [
+          "CSS"
+        ],
+        "stats": {
+          "apple-mail": {
+            "iOS 10": "y",
+            "OSX 10.10": "y"
+          },
+          "gmail": {
+            "Android 4.x": "u",
+            "iOS 10": "u",
+            "webmail": "y"
+          },
+          "outlook": {
+            "2007": "n",
+            "2013": "n",
+            "2016": "u",
+            "webmail": "u"
+          },
+          "yahoo": {
+            "webmail": "y",
+            "Android 4.x": "u",
+            "iOS 10": "u"
+          },
+          "windows-mail": {
+            "Windows 8": "u",
+            "Windows 10": "u",
+            "windows-live-mail": "u"
+          }
+        }
+      },
+      "background-size": {
+        "description": "",
+        "spec": "",
+        "links": [
+          {
+            "MDN": "https://developer.mozilla.org/en-US/docs/Web/CSS/background-size",
+            "W3C": "https://drafts.csswg.org/css-backgrounds-3/#the-background-size"
+          }
+        ],
+        "categories": [
+          "CSS"
+        ],
+        "stats": {
+          "apple-mail": {
+            "iOS 10": "y",
+            "OSX 10.10": "y"
+          },
+          "gmail": {
+            "Android 4.x": "u",
+            "iOS 10": "u",
+            "webmail": "y"
+          },
+          "outlook": {
+            "2007": "n",
+            "2013": "n",
+            "2016": "u",
+            "webmail": "u"
+          },
+          "yahoo": {
+            "webmail": "y",
+            "Android 4.x": "u",
+            "iOS 10": "u"
+          },
+          "windows-mail": {
+            "Windows 8": "u",
+            "Windows 10": "u",
+            "windows-live-mail": "u"
+          }
+        }
+      }
+    },
+    "CSS Box and Border Properties": {
+      "border": {
+        "description": "",
+        "spec": "",
+        "links": [
+          {
+            "MDN": "https://developer.mozilla.org/en-US/docs/Web/CSS/background-size",
+            "W3C": "https://drafts.csswg.org/css-backgrounds-3/#the-background-size"
+          }
+        ],
+        "categories": [
+          "CSS"
+        ],
+        "stats": {
+          "apple-mail": {
+            "iOS 10": "y",
+            "OSX 10.10": "y"
+          },
+          "gmail": {
+            "Android 4.x": "u",
+            "iOS 10": "u",
+            "webmail": "y"
+          },
+          "outlook": {
+            "2007": "n",
+            "2013": "n",
+            "2016": "u",
+            "webmail": "u"
+          },
+          "yahoo": {
+            "webmail": "y",
+            "Android 4.x": "u",
+            "iOS 10": "u"
+          },
+          "windows-mail": {
+            "Windows 8": "u",
+            "Windows 10": "u",
+            "windows-live-mail": "u"
+          }
+        }
+      },
+      "border-image": {
+        "description": "",
+        "spec": "",
+        "links": [
+          {
+            "MDN": "https://developer.mozilla.org/en-US/docs/Web/CSS/background-size",
+            "W3C": "https://drafts.csswg.org/css-backgrounds-3/#the-background-size"
+          }
+        ],
+        "categories": [
+          "CSS"
+        ],
+        "stats": {
+          "apple-mail": {
+            "iOS 10": "y",
+            "OSX 10.10": "y"
+          },
+          "gmail": {
+            "Android 4.x": "u",
+            "iOS 10": "u",
+            "webmail": "y"
+          },
+          "outlook": {
+            "2007": "n",
+            "2013": "n",
+            "2016": "u",
+            "webmail": "u"
+          },
+          "yahoo": {
+            "webmail": "y",
+            "Android 4.x": "u",
+            "iOS 10": "u"
+          },
+          "windows-mail": {
+            "Windows 8": "u",
+            "Windows 10": "u",
+            "windows-live-mail": "u"
+          }
+        }
+      },
+      "border-radius": {
+        "description": "",
+        "spec": "",
+        "links": [
+          {
+            "MDN": "https://developer.mozilla.org/en-US/docs/Web/CSS/background-size",
+            "W3C": "https://drafts.csswg.org/css-backgrounds-3/#the-background-size"
+          }
+        ],
+        "categories": [
+          "CSS"
+        ],
+        "stats": {
+          "apple-mail": {
+            "iOS 10": "y",
+            "OSX 10.10": "y"
+          },
+          "gmail": {
+            "Android 4.x": "u",
+            "iOS 10": "u",
+            "webmail": "y"
+          },
+          "outlook": {
+            "2007": "n",
+            "2013": "n",
+            "2016": "u",
+            "webmail": "u"
+          },
+          "yahoo": {
+            "webmail": "y",
+            "Android 4.x": "u",
+            "iOS 10": "u"
+          },
+          "windows-mail": {
+            "Windows 8": "u",
+            "Windows 10": "u",
+            "windows-live-mail": "u"
+          }
+        }
+      },
+      "border-shadow": {
+        "description": "",
+        "spec": "",
+        "links": [
+          {
+            "MDN": "https://developer.mozilla.org/en-US/docs/Web/CSS/background-size",
+            "W3C": "https://drafts.csswg.org/css-backgrounds-3/#the-background-size"
+          }
+        ],
+        "categories": [
+          "CSS"
+        ],
+        "stats": {
+          "apple-mail": {
+            "iOS 10": "y",
+            "OSX 10.10": "y"
+          },
+          "gmail": {
+            "Android 4.x": "u",
+            "iOS 10": "u",
+            "webmail": "y"
+          },
+          "outlook": {
+            "2007": "n",
+            "2013": "n",
+            "2016": "u",
+            "webmail": "u"
+          },
+          "yahoo": {
+            "webmail": "y",
+            "Android 4.x": "u",
+            "iOS 10": "u"
+          },
+          "windows-mail": {
+            "Windows 8": "u",
+            "Windows 10": "u",
+            "windows-live-mail": "u"
+          }
+        }
+      },
+      "height": {
+        "description": "",
+        "spec": "",
+        "links": [
+          {
+            "MDN": "https://developer.mozilla.org/en-US/docs/Web/CSS/background-size",
+            "W3C": "https://drafts.csswg.org/css-backgrounds-3/#the-background-size"
+          }
+        ],
+        "categories": [
+          "CSS"
+        ],
+        "stats": {
+          "apple-mail": {
+            "iOS 10": "y",
+            "OSX 10.10": "y"
+          },
+          "gmail": {
+            "Android 4.x": "u",
+            "iOS 10": "u",
+            "webmail": "y"
+          },
+          "outlook": {
+            "2007": "n",
+            "2013": "n",
+            "2016": "u",
+            "webmail": "u"
+          },
+          "yahoo": {
+            "webmail": "y",
+            "Android 4.x": "u",
+            "iOS 10": "u"
+          },
+          "windows-mail": {
+            "Windows 8": "u",
+            "Windows 10": "u",
+            "windows-live-mail": "u"
+          }
+        }
+      },
+      "width": {
+        "description": "",
+        "spec": "",
+        "links": [
+          {
+            "MDN": "https://developer.mozilla.org/en-US/docs/Web/CSS/background-size",
+            "W3C": "https://drafts.csswg.org/css-backgrounds-3/#the-background-size"
+          }
+        ],
+        "categories": [
+          "CSS"
+        ],
+        "stats": {
+          "apple-mail": {
+            "iOS 10": "y",
+            "OSX 10.10": "y"
+          },
+          "gmail": {
+            "Android 4.x": "u",
+            "iOS 10": "u",
+            "webmail": "y"
+          },
+          "outlook": {
+            "2007": "n",
+            "2013": "n",
+            "2016": "u",
+            "webmail": "u"
+          },
+          "yahoo": {
+            "webmail": "y",
+            "Android 4.x": "u",
+            "iOS 10": "u"
+          },
+          "windows-mail": {
+            "Windows 8": "u",
+            "Windows 10": "u",
+            "windows-live-mail": "u"
+          }
+        }
+      },
+      "max-width": {
+        "description": "",
+        "spec": "",
+        "links": [
+          {
+            "MDN": "https://developer.mozilla.org/en-US/docs/Web/CSS/background-size",
+            "W3C": "https://drafts.csswg.org/css-backgrounds-3/#the-background-size"
+          }
+        ],
+        "categories": [
+          "CSS"
+        ],
+        "stats": {
+          "apple-mail": {
+            "iOS 10": "y",
+            "OSX 10.10": "y"
+          },
+          "gmail": {
+            "Android 4.x": "u",
+            "iOS 10": "u",
+            "webmail": "y"
+          },
+          "outlook": {
+            "2007": "n",
+            "2013": "n",
+            "2016": "u",
+            "webmail": "u"
+          },
+          "yahoo": {
+            "webmail": "y",
+            "Android 4.x": "u",
+            "iOS 10": "u"
+          },
+          "windows-mail": {
+            "Windows 8": "u",
+            "Windows 10": "u",
+            "windows-live-mail": "u"
+          }
+        }
+      },
+      "min-width": {
+        "description": "",
+        "spec": "",
+        "links": [
+          {
+            "MDN": "https://developer.mozilla.org/en-US/docs/Web/CSS/background-size",
+            "W3C": "https://drafts.csswg.org/css-backgrounds-3/#the-background-size"
+          }
+        ],
+        "categories": [
+          "CSS"
+        ],
+        "stats": {
+          "apple-mail": {
+            "iOS 10": "y",
+            "OSX 10.10": "y"
+          },
+          "gmail": {
+            "Android 4.x": "u",
+            "iOS 10": "u",
+            "webmail": "y"
+          },
+          "outlook": {
+            "2007": "n",
+            "2013": "n",
+            "2016": "u",
+            "webmail": "u"
+          },
+          "yahoo": {
+            "webmail": "y",
+            "Android 4.x": "u",
+            "iOS 10": "u"
+          },
+          "windows-mail": {
+            "Windows 8": "u",
+            "Windows 10": "u",
+            "windows-live-mail": "u"
+          }
+        }
+      }
+    }
+  }
+}
