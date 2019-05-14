@@ -1,10 +1,10 @@
 ---
-title: "ja"
+title: ""
 description: "世界の諸政府が地球生命の危機に何もしないという犯罪に反対する、非暴力の国際的反乱をここに宣言します"
 layout: home
 lang: "ja"
 permalink: "/ja/"
 
-disclaimer: Disclaimer
-disclaimer-text: All of our work is free to use non-commercially in the full spirit of DIY. Do not use the work for commercial purposes, however well meaning, without prior consent from the originators. The Extinction Symbol was designed prior to Extinction Rebellion. Using the symbol on commercial merchandise is strictly forbidden.
+disclaimer: 免責事項
+disclaimer-text: 当ムーブメント全ての作品はオープンソースの精神の下で非営利目的で自由に御使用になれます。国際XRのロゴは、気象危機叛乱が始まる前に英国のアーティストが 設計し、環境保護活動に寄付しました。商品にシンボルを使用することは固く禁じられています。詳しくは
 ---
