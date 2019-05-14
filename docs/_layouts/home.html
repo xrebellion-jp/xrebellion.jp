@@ -4,22 +4,25 @@ description: "xrebellion"
 ---
 
 <!doctype html>
-<html lang="{{ page.lang }}">
+<html lang="{{ page.lang }}" class="h-100">
 
 <head>
   {% include meta.html %}
 </head>
 
-<body class="bg-light">
-  <header>
-    {% include header.html %}
-  </header>
+<body class="bg-light d-flex flex-column h-100">
+  <div class="flex-shrink-0">
 
-  <main role="main">
-    {% include main.html %}
-  </main>
 
-  <footer class="bg-dark">
+    <header>
+      {% include header.html %}
+    </header>
+
+    <main role="main">
+      {% include main.html %}
+    </main>
+  </div>
+  <footer class="bg-dark mt-auto">
     {% include footer.html %} {% if site.google_analytics and
       jekyll.environment == 'production' %} {% include analytics.html %}
     {% endif %}
