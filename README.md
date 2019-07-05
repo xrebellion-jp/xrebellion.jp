@@ -19,8 +19,7 @@ Test URL: https://xrebellion-jp.github.io/xrebellion.jp/
 | Validation             | http://xrebellion.jp.websiteoutlook.com/                                          |
 | Nibbler                | http://nibbler.silktide.com/                                                      |
 | Website Grader         | https://website.grader.com/results/xrebellion.jp                                  |
-| Rich Links Preview     | https://richpreview.com/?url=https://xrebellion.jp                                |
 | Security               | https://observatory.mozilla.org/analyze/xrebellion.jp                             |
 | HSTS Preload           | https://hstspreload.org/?domain=xrebellion.jp                                     |
 | Alexa                  | https://www.alexa.com/siteinfo/xrebellion.jp                                      |
-| More Testing Tools     | https://github.com/coliff/web-testing-tools                                       |
+| More Testing Tools     | https://github.com/coliff/awesome-website-testing-tools                           |
