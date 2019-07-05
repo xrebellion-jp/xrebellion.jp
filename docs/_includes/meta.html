@@ -1,20 +1,12 @@
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
-<title>{{ page.title }}</title>
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 <!--[if IE]>
 <link href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie9.min.css" rel="stylesheet">
 <script src="https://cdn.polyfill.io/v3/polyfill.min.js"></script>
 <![endif]-->
 <link rel="icon" href="favicon.png">
-<meta name="description" content="{{ page.description }}">
 <link rel="manifest" href="/site.webmanifest">
-{% if page.canonical_url %}
-{%- assign canonical_url = page.canonical_url %}
-{% else %}
-{%- assign canonical_url = page.url | replace: "index.html", "" | absolute_url %}
-{% endif %}
-<link rel="canonical" href="{{ canonical_url }}">
 <meta name="theme-color" content="#bb00bb">
 <meta name="last-modified" content="{{ site.time | date: "%Y-%m-%d" }}">
